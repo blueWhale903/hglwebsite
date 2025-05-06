@@ -22,10 +22,10 @@ nav {
 }
 
 .link {
-    color: #000;
-    background: #f1f1f1;
+    color: #fff;
+    background: #2c3e50;
     padding: 12px 24px;
-    border-radius: 12px;
+    border-radius: 6px;
     margin: 1rem 1rem;
     text-decoration: none;
 }

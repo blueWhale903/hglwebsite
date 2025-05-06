@@ -6,15 +6,15 @@
         <p class="info-name">Hoang Gia Long</p>
         <p>hglong903@gmail.com</p>
         <div class="social">
-          <a href="https://github.com/blueWhale903">Github </a>
-          <a href="https://www.linkedin.com/in/ho%C3%A0ng-gia-long-831112223/">Linkedin</a>
+          <a href="https://github.com/blueWhale903"><unicon name="github"/></a>
+          <a href="https://www.linkedin.com/in/ho%C3%A0ng-gia-long-831112223/"><unicon name="linkedin"/></a>
         </div>
       </div>
     </div>
     <NavBar />
     <router-view />
     <footer>
-      <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
     </footer>
   </div>
 </template>
@@ -46,8 +46,11 @@ export default {
 footer {
   margin-top: auto;
   padding: 1rem;
-  background: #2c3e50;
-  color: white;
+  color: #2c3e50;
+}
+
+footer p {
+  text-align: center;
 }
 
 .img-cropper {
@@ -77,6 +80,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  height: 100px;
 }
 
 .info-name {
